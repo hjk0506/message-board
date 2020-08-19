@@ -1,0 +1,26 @@
+[1mdiff --git a/config/app.php b/config/app.php[m
+[1mindex 9e5b36c..cba4e07 100644[m
+[1m--- a/config/app.php[m
+[1m+++ b/config/app.php[m
+[36m@@ -67,7 +67,7 @@[m [mreturn [[m
+     |[m
+     */[m
+ [m
+[31m-    'timezone' => 'UTC',[m
+[32m+[m[32m    'timezone' => 'Asia/Tokyo',[m
+ [m
+     /*[m
+     |--------------------------------------------------------------------------[m
+[1mdiff --git a/resources/views/welcome.blade.php b/resources/views/welcome.blade.php[m
+[1mindex 3fb48cc..9e336b7 100644[m
+[1m--- a/resources/views/welcome.blade.php[m
+[1m+++ b/resources/views/welcome.blade.php[m
+[36m@@ -81,7 +81,7 @@[m
+ [m
+             <div class="content">[m
+                 <div class="title m-b-md">[m
+[31m-                    Laravel[m
+[32m+[m[32m                    太郎[m
+                 </div>[m
+ [m
+                 <div class="links">[m
